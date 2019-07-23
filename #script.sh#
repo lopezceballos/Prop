@@ -1,0 +1,6 @@
+#!/bin/bash
+
+touch archivo
+mkdir Carpeta
+mv ./23Julio2019 Carpeta
+echo
