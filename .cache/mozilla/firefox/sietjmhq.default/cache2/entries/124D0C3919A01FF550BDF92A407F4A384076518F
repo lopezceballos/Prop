@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request a discount - GitHub Education</title>
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" media="screen" href="https://dwa5x7aod66zk.cloudfront.net/assets/public-82b79f1099f2bb730ed938012ad53398687d2ebe5753918baf859500f34ccd8e.css" crossorigin="anonymous" integrity="sha256-grefEJnyu3MO2TgBKtUzmGh9Lr5XU5GLr4WVAPNMzY4=" />
+    <link rel="stylesheet" media="print" href="https://dwa5x7aod66zk.cloudfront.net/assets/print-a9082f7ad016417aca6891bd9301962f43d00fdfebb5cb114e08774e27cd5b8c.css" crossorigin="anonymous" integrity="sha256-qQgvetAWQXrKaJG9kwGWL0PQD9/rtcsRTgh3TifNW4w=" />
+    <script src="https://dwa5x7aod66zk.cloudfront.net/assets/public-f37a1e5bbe43e1f5d7b878a702fcb31d574233514728351e51cf9a7b2ef42e07.js" crossorigin="anonymous" integrity="sha256-83oeW75D4fXXuHinAvyzHVdCM1FHKDUeUc+aey70Lgc="></script>
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="9TN9Heyh7QBNHHwHyV/C6pyQm7FLMQbpvXZm5G62MxBEWLV+cpg1eDNUB8JMwq7OuWOrvJBFfy70INpg5NLYzA==" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+      <meta property="og:url" content="http://education.github.com" />
+      <meta property="og:site_name" content="GitHub Education" />
+      <meta property="og:title" content="Discounted and free plans are available for educational use" />
+      <meta property="og:description" content="Teach and learn better, together. Learn to ship software like a pro." />
+      <meta property="og:type" content="website" />
+      <meta property="og:author" content="https://www.facebook.com/GitHub" />
+      <meta property="og:image" content="http://og.github.com/logo/github-logo@1200x1200.png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="1200" />
+      <meta property="og:image" content="http://og.github.com/mark/github-mark@1200x630.png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image" content="http://og.github.com/octocat/github-octocat@1200x630.png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+
+      <meta property="twitter:site" content="@GitHubEducation" />
+      <meta property="twitter:site:id" content="1943578656" />
+      <meta property="twitter:creator" content="@GitHubEducation" />
+      <meta property="twitter:creator:id" content="1943578656" />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="GitHub Education" />
+      <meta property="twitter:description" content="Teach and learn better, together. Learn to ship software like a pro. Discounted and free plans are available for educational use" />
+      <meta property="twitter:image:src" content="http://og.github.com/logo/github-logo@1200x1200.png" />
+      <meta property="twitter:image:width" content="1200" />
+      <meta property="twitter:image:height" content="1200" />
+  </head>
+  <body class="_discount_requests _new">
+    
+
+
+
+    <div class="d-none d-md-block py-2 bg-gray-dark">
+  <div class="container-lg p-responsive d-flex flex-md-justify-between">
+    <a class="d-block text-white no-underline" href="https://github.com" data-ga-click="Top bar, go to github, text:Back to GitHub.com">Back to GitHub.com</a>
+    <div class="d-flex">
+      <a class="d-block text-white no-underline mr-3" href="https://help.github.com" data-ga-click="Top bar, go to support, text:GitHub Support">GitHub Support</a>
+      <a class="d-block text-white no-underline" href="https://github.com/contact" data-ga-click="Top bar, go to contact, text:Contact GitHub">Contact GitHub</a>
+    </div>
+  </div>
+</div>
+
+<header class="py-4 bg-white border-bottom">
+  <div class="d-flex flex-column flex-md-row flex-md-items-center flex-md-justify-between container-lg p-responsive flex-items-center">
+    <h1 class="d-none"><a href="/">GitHub Education</a></h1>
+    <a href="/" class="d-block"><img class="d-inline-block" alt="GitHub Education" height="22" src="https://dwa5x7aod66zk.cloudfront.net/assets/next/wordmark-b2322266c45ea75318d0ea4481ab3c0aaa587af433ead331ba0ec402ad79fde9.svg" /></a>
+
+    <nav class="mt-3 mt-md-0">
+      <ul class="d-flex flex-wrap flex-justify-center flex-items-center flex-md-justify-end list-style-none">
+        <li class="d-flex flex-items-center mx-3 mb-2 mb-sm-3 mb-md-0">
+            <a href="/students">Students</a>
+        </li>
+        <li class="d-flex flex-items-center mx-3 mb-2 mb-sm-3 mb-md-0">
+            <a href="/teachers">Teachers</a>
+        </li>
+        <li class="d-flex flex-items-center mx-3 mb-2 mb-sm-3 mb-md-0">
+            <a href="/schools">Schools</a>
+        </li>
+
+        <li class="d-flex flex-items-center mx-3 mb-2 mb-sm-3 mb-md-0">
+            <a href="/events">Events</a>
+        </li>
+
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+      <div class="container-lg text-center py-4 py-md-6">
+    <nav aria-label="Breadcrumb" class="p-responsive">
+      <ol>
+        <li class="breadcrumb-item text-small"><a href="/">Home</a></li>
+        <li class="breadcrumb-item breadcrumb-item-selected text-small text-gray" aria-current="page">Get benefits</li>
+      </ol>
+    </nav>
+
+    <div class="text-center m-3">
+      <h1 class="alt-h1 lh-condensed my-2">Get GitHub Education benefits</h1>
+      <p class="alt-lead text-gray">Discounted and free plans are available for educational use.</p>
+      <p class="text-gray mb-0">GitHub Education offers <a href="/benefits/offers" class="btn-link">discounts for individuals and schools</a>.</p>
+    </div>
+  </div>
+
+
+      <div class="border-bottom shaded-background">
+    <div class="container-lg p-responsive">
+
+      <div class="d-lg-flex flex-row-reverse gutter-md">
+        
+
+<div class="col-lg-9 mx-auto">
+  <div class="rounded-1 border box-shadow-medium bg-white">
+    
+
+    <div class="p-5">
+      <form class="new_discount_request" id="new_discount_request" action="/discount_requests" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WqAZJcpb3SymLm2SFgDi9TEUaS6dq+KbYKip+B5LK/Try9FGVGIFVNhmFleTnY7RFOdZI0bfm1wp/hV8lC/AKA==" />
+        <div class="my-2">
+          <label for="discount_request_user_type">
+            Which best describes your academic status?
+            <a href="https://help.github.com/categories/teaching-and-learning-with-github-education" target="_blank" title="Learn about the different academic discounts available from GitHub Education"><span class="octicon octicon-question"></span></a>
+</label>          <div class="d-flex flex-wrap js-user-type-radio-button-group">
+              <label class="my-3 mr-5">
+                <input required="required" class="js-has-other-field mr-2" data-user-type="student" type="radio" value="student" name="discount_request[user_type]" id="discount_request_user_type_student" />
+                Student
+              </label>
+              <label class="my-3 mr-5">
+                <input required="required" class="js-has-other-field mr-2" data-user-type="faculty" type="radio" value="faculty" name="discount_request[user_type]" id="discount_request_user_type_faculty" />
+                Faculty
+              </label>
+          </div>
+          <div class="flash js-faculty hide">
+            When you receive an email notifying you that you've been approved for GitHub Education faculty benefits, you may return to <em>https://education.github.com/benefits</em> to upgrade your academic GitHub organizations.
+          </div>
+          <div class="flash js-student hide">
+            The GitHub Student Developer Pack is only available to students aged 13 or older.
+          </div>
+        </div>
+
+        <div id="file-upload">
+          <div id="progress" class="progress"></div>
+          <div id="files" class="files"></div>
+        </div>
+
+        <div class="my-5">
+          <label class="d-block mb-1" for="discount_request_school_email">What e-mail address do you use for school?</label>
+            <p class="f6 text-gray"><svg class="octicon octicon-zap mr-1" fill="#222222" viewBox="0 0 10 16" width="10" height="16" version="1.1" aria-hidden="true"><path d="M10 7H6L9 0 0 9h4L1 16 10 7z"></path></svg> <strong class="text-gray-dark">Pro-tip:</strong> Selecting a school-issued email address gives you the best chance of a speedy review.</p>
+            <div class="Box">
+              <fieldset class="border-bottom">
+                <ul class="js-email-radio-button-group">
+                    <li class="Box-row">
+                      <label class="d-flex flex-justify-between text-normal">
+                          <div>
+                            <input class="mr-2" data-school-name="National Autonomous University of Mexico" type="radio" value="hannialau@ciencias.unam.mx" name="discount_request[school_email]" id="discount_request_school_email_hannialaucienciasunammx" />
+                            hannialau@ciencias.unam.mx
+                          </div>
+                          <span title="National Autonomous University of Mexico is verified" class="State State--green State--small">
+                            <svg class="octicon octicon-check mr-1" fill="#ffffff" viewBox="0 0 12 16" width="12" height="16" version="1.1" aria-hidden="true"><path d="M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"></path></svg>National Autonomous University of Mexico
+                          </span>
+                      </label>
+                    </li>
+                </ul>
+              </fieldset>
+              <div class="Box-row js-add-email-address-form hide">
+                <dl class="my-0 form-group">
+                  <dd>
+                    <input type="email" placeholder="jane@doe.com" class="form-control mr-1 js-add-email-address-input">
+                    <button class="btn btn-primary js-add-email-address-button">Add</button>
+                  </dd>
+                  <dd class="js-email-error error hide">Please enter a valid email address </dd>
+                </dl>
+              </div>
+              <div class="Box-row Box-row--gray js-email-school-section">
+                <a class="btn btn-sm js-display-email-input-button"><svg class="octicon octicon-plus mr-1" viewBox="0 0 12 16" width="12" height="16" version="1.1" aria-hidden="true"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg> Add an email address</a>
+              </div>
+            </div>
+            <div class="flash flash-full js-email-address-message hide">
+              <button class="flash-close js-flash-close"><svg class="octicon octicon-x" viewBox="0 0 12 16" width="12" height="16" version="1.1" aria-hidden="true"><path d="M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg></button>
+              <span class='text-emphasized js-added-email'></span>
+              was successfully added to your GitHub account. Please verify it by visiting <a href="https://github.com/settings/emails">your GitHub email settings</a>. Then refresh this page to select it.
+            </div>
+            <div class="flash flash-full js-academic-status-message hide">
+              We need students at <span class="text-emphasized js-school-name"></span> to send additional proof of academic status.
+            </div>
+            <div class="flash flash-full js-faculty hide">
+              We need all faculty to send additional proof of academic status.
+            </div>
+            <div class="flash flash-full js-add-school-message hide">
+              We can't find a school that matches your <span class="text-emphasized js-domain-name"></span> email address. You can <strong>tell us about your school below</strong> or try selecting a different academic email address.
+            </div>
+            <div class="attachment-upload border rounded-1 border-gray-dark p-3 bg-gray hide">
+              <h3 class="h5 mb-2">Upload proof of your academic status</h3>
+              <div class="upload-content d-md-flex flex-items-center">
+                <div class="attachment-upload-box d-flex flex-column flex-justify-center col-md-6 text-center rounded-1 p-5 mb-3 mb-md-0 bg-white">
+                  <span>Drop file here or <br />click to upload.</span>
+                </div>
+                <div class="attachment-upload-text col-md-6 pl-md-3">
+                  <div class="attachment-upload-text-content">
+                    <p class="upload-before text-gray">Please upload an image of your school ID or other proof of affiliation. Please make sure that at least one date that demonstrates your current academic status is clearly visible.</p>
+                    <div class="upload-progress"></div>
+                    <div class="upload-error"></div>
+                    <div class="upload-success">
+                      <div>
+                        Thanks for uploading your photo. Please complete the form and submit when you're ready.
+                        <span class="mega-octicon octicon-arrow-down"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input class="js-s3-upload-field js-not-required" type="hidden" name="discount_request[attachment]" id="discount_request_attachment" />
+                <input class="js-image-data-field" type="hidden" name="discount_request[attachment_data]" id="discount_request_attachment_data" />
+              </div>
+            </div>
+        </div>
+
+        <div class="my-5 js-school hide">
+          <label class="d-block mb-2" for="discount_request_school_name">What&#39;s the name of your school?</label>
+          <input class="js-school-name-input col-12 col-md-6 form-control" type="text" name="discount_request[school_name]" id="discount_request_school_name" />
+        </div>
+
+        <div class="my-5">
+          <label class="d-block mb-2" for="discount_request_note">How do you plan to use GitHub?</label>
+          <textarea required="required" class="col-12 col-md-6 form-control" name="discount_request[note]" id="discount_request_note">
+</textarea>
+        </div>
+        <p class="text-gray">Please note, your request cannot be edited once it has been submitted, so please verify your details for accuracy before sending them to us.</p>
+
+        <div class="actions">
+          <input type="submit" name="commit" value="Submit your information" class="btn btn-primary btn-large final-submit" data-disable-with="Submit your information" />
+        </div>
+</form>    </div>
+  </div>
+</div>
+
+      </div>
+
+      <div class="d-md-flex gutter-md-spacious flex-items-start text-center mt-4">
+        <div class="col-md-4 f4 my-6">
+          <h3 class="lh-condensed alt-h3 mb-2"><a href="https://help.github.com/categories/teaching-and-learning-with-github-education/">Get help</a></h3>
+          <p class="text-gray">Common questions about applying for your academic discount.<p>
+        </div>
+        <div class="col-md-4 f4 my-6">
+          <h3 class="lh-condensed alt-h3 mb-2"><a href="/students">Students</a></h3>
+          <p class="text-gray">Learn about GitHub's programs</p>
+        </div>
+        <div class="col-md-4 f4 my-6">
+          <h3 class="lh-condensed alt-h3 mb-2"><a href="/teachers">Teachers</a></h3>
+          <p class="text-gray">Discover GitHub's resources</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div class="container-lg p-responsive" role="contentinfo">
+  <div class="d-flex flex-wrap gutter py-6 my-6">
+    <div class="col-12 col-md-2 mb-3">
+
+
+      <p class="text-gray alt-text-small">
+        <svg class="octicon octicon-logo-github d-block width-fit" viewBox="0 0 45 16" width="67" height="24" version="1.1" aria-hidden="true"><path d="M8.64 5.19H4.88c-0.11 0-0.19 0.08-0.19 0.17v1.84c0 0.09 0.08 0.17 0.19 0.17h1.47v2.3s-0.33 0.11-1.25 0.11c-1.08 0-2.58-0.39-2.58-3.7s1.58-3.73 3.05-3.73c1.27 0 1.81 0.22 2.17 0.33 0.11 0.03 0.2-0.08 0.2-0.17l0.42-1.78c0-0.05-0.02-0.09-0.06-0.14-0.14-0.09-1.02-0.58-3.2-0.58C2.58 0 0 1.06 0 6.2s2.95 5.92 5.44 5.92c2.06 0 3.31-0.89 3.31-0.89 0.05-0.02 0.06-0.09 0.06-0.13V5.36c0-0.09-0.08-0.17-0.19-0.17h0.02zM27.7 0.44h-2.13c-0.09 0-0.17 0.08-0.17 0.17v4.09h-3.31V0.61c0-0.09-0.08-0.17-0.17-0.17h-2.13c-0.09 0-0.17 0.08-0.17 0.17v11.11c0 0.09 0.09 0.17 0.17 0.17h2.13c0.09 0 0.17-0.08 0.17-0.17V6.97h3.31l-0.02 4.75c0 0.09 0.08 0.17 0.17 0.17h2.13c0.09 0 0.17-0.08 0.17-0.17V0.61c0-0.09-0.08-0.17-0.17-0.17h0.02zM11.19 0.69c-0.77 0-1.38 0.61-1.38 1.38s0.61 1.38 1.38 1.38c0.75 0 1.36-0.61 1.36-1.38s-0.61-1.38-1.36-1.38z m1.22 3.55c0-0.09-0.08-0.17-0.17-0.17H10.11c-0.09 0-0.17 0.09-0.17 0.2 0 0 0 6.17 0 7.34 0 0.2 0.13 0.27 0.3 0.27 0 0 0.91 0 1.92 0 0.2 0 0.25-0.09 0.25-0.27 0-0.39 0-7.36 0-7.36v-0.02z m23.52-0.16h-2.09c-0.11 0-0.17 0.08-0.17 0.19v5.44s-0.55 0.39-1.3 0.39-0.97-0.34-0.97-1.09c0-0.73 0-4.75 0-4.75 0-0.09-0.08-0.17-0.17-0.17h-2.14c-0.09 0-0.17 0.08-0.17 0.17 0 0 0 2.91 0 5.11s1.23 2.75 2.92 2.75c1.39 0 2.52-0.77 2.52-0.77s0.05 0.39 0.08 0.45c0.02 0.05 0.09 0.09 0.16 0.09h1.34c0.11 0 0.17-0.08 0.17-0.17l0.02-7.47c0-0.09-0.08-0.17-0.19-0.17z m5.77-0.25c-1.2 0-2.02 0.53-2.02 0.53V0.59c0-0.09-0.08-0.17-0.17-0.17h-2.13c-0.09 0-0.17 0.08-0.17 0.17l-0.02 11.11c0 0.09 0.09 0.17 0.19 0.17h1.48c0.06 0 0.11-0.02 0.14-0.08 0.05-0.06 0.09-0.52 0.09-0.52s0.88 0.83 2.52 0.83c1.94 0 3.05-0.98 3.05-4.41s-1.77-3.88-2.97-3.88z m-0.83 6.27c-0.73-0.02-1.22-0.36-1.22-0.36V6.22s0.48-0.3 1.08-0.34c0.77-0.08 1.5 0.16 1.5 1.97 0 1.91-0.33 2.28-1.36 2.25z m-22.33-0.05c-0.09 0-0.33 0.05-0.58 0.05-0.78 0-1.05-0.36-1.05-0.83s0-3.13 0-3.13h1.59c0.09 0 0.16-0.08 0.16-0.19V4.25c0-0.09-0.08-0.17-0.16-0.17h-1.59V1.97c0-0.08-0.05-0.13-0.14-0.13H14.61c-0.09 0-0.14 0.05-0.14 0.13v2.17s-1.09 0.27-1.16 0.28c-0.08 0.02-0.13 0.09-0.13 0.17v1.36c0 0.11 0.08 0.19 0.17 0.19h1.11s0 1.44 0 3.28c0 2.44 1.7 2.69 2.86 2.69 0.53 0 1.17-0.17 1.27-0.22 0.06-0.02 0.09-0.09 0.09-0.16v-1.5c0-0.11-0.08-0.19-0.17-0.19h0.02z"></path></svg>
+        &copy; 2019
+      </p>
+    </div>
+    <div class="col-6 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Features</h4>
+      <ul class="list-style-none text-gray">
+        <li class="lh-condensed mb-2"><a href="//github.com/features#code-review" class="muted-link alt-text-small">Code review</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/features#project-management" class="muted-link alt-text-small">Project management</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/features#integrations" class="muted-link alt-text-small">Integrations</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/features#community-management" class="muted-link alt-text-small">Community</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/features#documentation" class="muted-link alt-text-small">Documentation</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/features#code-hosting" class="muted-link alt-text-small">Code hosting</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Platform</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://atom.io" class="muted-link alt-text-small">Atom</a></li>
+        <li class="lh-condensed mb-2"><a href="http://electron.atom.io/" class="muted-link alt-text-small">Electron</a></li>
+        <li class="lh-condensed mb-2"><a href="https://desktop.github.com/" class="muted-link alt-text-small">GitHub Desktop</a></li>
+        <li class="lh-condensed mb-2"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api" class="muted-link alt-text-small">Developers</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Community</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="//github.com/personal" class="muted-link alt-text-small">Personal</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/open-source" class="muted-link alt-text-small">Open source</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/business" class="muted-link alt-text-small">For Business</a></li>
+        <li class="lh-condensed mb-2"><a href="https://education.github.com/" class="muted-link alt-text-small">For Education</a></li>
+        <li class="lh-condensed mb-2"><a href="https://community.github.com/" class="muted-link alt-text-small">Sponsorships</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Company</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="//github.com/about/" class="muted-link alt-text-small">About</a></li>
+        <li class="lh-condensed mb-2"><a href="https://blog.github.com" class="muted-link alt-text-small">Blog</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/business/customers" class="muted-link alt-text-small">Customers</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/about/careers" class="muted-link alt-text-small">Careers</a></li>
+        <li class="lh-condensed mb-2"><a href="//github.com/about/press" class="muted-link alt-text-small">Press</a></li>
+        <li class="lh-condensed mb-2"><a href="https://shop.github.com" class="muted-link alt-text-small">Shop</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Resources</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://github.com/contact/" class="muted-link alt-text-small">Contact</a></li>
+        <li class="lh-condensed mb-2"><a href="https://help.github.com/" class="muted-link alt-text-small">Help</a></li>
+        <li class="lh-condensed mb-2"><a href="https://status.github.com/" class="muted-link alt-text-small">Status</a></li>
+        <li class="lh-condensed mb-2"><a href="https://help.github.com/articles/github-terms-of-service/" class="muted-link alt-text-small">Terms</a></li>
+        <li class="lh-condensed mb-2"><a href="https://help.github.com/articles/github-privacy-statement/" class="muted-link alt-text-small">Privacy</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/security" class="muted-link alt-text-small">Security</a></li>
+        <li class="lh-condensed mb-2"><a href="https://services.github.com/" class="muted-link alt-text-small">Training</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-32', 'github.com');
+  ga('send', 'pageview');
+
+</script>
+
+    
+  </body>
+</html>
+
+/(8)k      ]8¶Ü]8¶á@ù∑       3    :https://education.github.com/discount_requests/new necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Wed, 24 Jul 2019 18:42:14 GMT
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'self' dwa5x7aod66zk.cloudfront.net; object-src 'self'; frame-src *.vimeo.com platform.twitter.com connect.facebook.net *.facebook.com speakerdeck.com *.youtube.com; connect-src 'self' github-education-web.s3.amazonaws.com *.tiles.mapbox.com *.clearbit.com www.google.com *.githubusercontent.com; img-src 'self' blob: dwa5x7aod66zk.cloudfront.net data: github.com *.tiles.mapbox.com *.clearbit.com avatars.githubusercontent.com user-images.githubusercontent.com github-education-web.s3.amazonaws.com www.google-analytics.com analytics.twitter.com t.com *.facebook.com *.twitter.com *.youtube.com; font-src 'self' dwa5x7aod66zk.cloudfront.net; script-src 'self' dwa5x7aod66zk.cloudfront.net 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com api.demandbase.com speakerdeck.com platform.twitter.com connect.facebook.net *.facebook.com s3-eu-west-1.amazonaws.com/share.typeform.com/* *.github.com *.githubassets.com; style-src 'self' dwa5x7aod66zk.cloudfront.net 'unsafe-inline' www.google.com ajax.googleapis.com *.github.com
+Content-Type: text/html; charset=utf-8
+Etag: W/"e9f693ace716f8ec8b56a960d2397805"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: c9614c7c-8bb2-46ba-b3e8-b95e2eaff138
+X-Runtime: 0.220764
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 vegur
+ original-response-headers Server: Cowboy
+Date: Wed, 24 Jul 2019 18:42:14 GMT
+Connection: keep-alive
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'self' dwa5x7aod66zk.cloudfront.net; object-src 'self'; frame-src *.vimeo.com platform.twitter.com connect.facebook.net *.facebook.com speakerdeck.com *.youtube.com; connect-src 'self' github-education-web.s3.amazonaws.com *.tiles.mapbox.com *.clearbit.com www.google.com *.githubusercontent.com; img-src 'self' blob: dwa5x7aod66zk.cloudfront.net data: github.com *.tiles.mapbox.com *.clearbit.com avatars.githubusercontent.com user-images.githubusercontent.com github-education-web.s3.amazonaws.com www.google-analytics.com analytics.twitter.com t.com *.facebook.com *.twitter.com *.youtube.com; font-src 'self' dwa5x7aod66zk.cloudfront.net; script-src 'self' dwa5x7aod66zk.cloudfront.net 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com api.demandbase.com speakerdeck.com platform.twitter.com connect.facebook.net *.facebook.com s3-eu-west-1.amazonaws.com/share.typeform.com/* *.github.com *.githubassets.com; style-src 'self' dwa5x7aod66zk.cloudfront.net 'unsafe-inline' www.google.com ajax.googleapis.com *.github.com
+Content-Type: text/html; charset=utf-8
+Etag: W/"e9f693ace716f8ec8b56a960d2397805"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _education_session=THlFMHFjcm5pRDcwQzd4MXBGSzMzM25uYnFXZjFzRVFQMjBNaDkzbnlLQzdoZ3AvK2llSGZKUzZqdWFzQXBiTGVFeFI4dnlZcWc2MnhLeG5EcVFhOXVTS1ZlY244OWs2NzQ5NDFZRU05Tm9xUlE0SE9Sc0ttRFA4NDZkUS9SK2dqTHZPaVZUbjNHWDNiM28yeFVacFFHWmVabTNMemE3YmhJRkRDZWdyeG5aM3VqY05neGxkTkZSUjVkT3Z2UTB6cVA0bmhSUFpIVk4zNFJHNG5tM2ROWVczN1hWVjYyYkNlSXc3aW9OcHRvWFV5MGlYSGQ0NWlubWI3WXo2R3I0MDNXeDJGRXZFWUhwY3o3R29rYkJvZS9uTnV1aEg2b092bEQ0clRnZ0lNU1AvZ2lxTXFwMTBsNlg2bnRVZVVMWWthMjl3SG9kbmluZlU2Q05PK2lkRmZGR2Zzck05K09CRE9Eek5YR0VEdmhyeTMwREVvZjBDRHp4TGhpN3B4NFdYN2ZpaWV0bTdrcHBraHVuejdORk1JUXhZNzE3UDNZZDBFb1N4Y2lNd0pubG9BRlc2bmNFM1VBTGdTdVdJSzQrOXpwNDhaTW9kSDlLcVpOZHgrSkE4VVk2M0JwK29Oa05KcUwvcU90ZUpNYVJ6MTBTU0hDUDZodktpSkVKMlhrL3hiUU1sRGl5bXJhSWowcWkrdWE5cVduZDlieGtXTG4yMWRhdTh0dUdTU1JzSkZ3ZFdxQ1VRa2VoMTh3Q0VEZEJhSUlJMzBzeWhPUWNNbWwxdkRJMThlQT09LS1BUTVPSEltSFJnVjJSZXlOSkdwYThBPT0%3D--041497c8716695eabadb44b2217a4116a01c74b1; path=/; secure; HttpOnly
+X-Request-Id: c9614c7c-8bb2-46ba-b3e8-b95e2eaff138
+X-Runtime: 0.220764
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Transfer-Encoding: chunked
+Via: 1.1 vegur
+ uncompressed-len 0 net-response-time-onstart 292 net-response-time-onstop 294 predictor::resource-count 6 predictor::https://dwa5x7aod66zk.cloudfront.net/assets/public-82b79f1099f2bb730ed938012ad53398687d2ebe5753918baf859500f34ccd8e.css 1,1,1563993734,4096 predictor::https://dwa5x7aod66zk.cloudfront.net/assets/print-a9082f7ad016417aca6891bd9301962f43d00fdfebb5cb114e08774e27cd5b8c.css 1,1,1563993734,4096 predictor::https://dwa5x7aod66zk.cloudfront.net/assets/public-f37a1e5bbe43e1f5d7b878a702fcb31d574233514728351e51cf9a7b2ef42e07.js 1,1,1563993734,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1563993734,4096 predictor::https://dwa5x7aod66zk.cloudfront.net/assets/octicons/octicons/octicons-000ffd0b89cc0acf1885c8031fab351f939108cee8264bd82b644d3b0ee1d2b1.woff 1,1,1563993734,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j77&a=1667063385&t=pageview&_s=1&dl=https%3A%2F%2Feducation.github.com%2Fdiscount_requests%2Fnew&ul=en-us&de=UTF-8&dt=Request%20a%20discount%20-%20GitHub%20Education&sd=24-bit&sr=1920x1080&vp=1267x873&je=0&_u=AACAAAAB~&jid=&gjid=&cid=18295041.1563986076&tid=UA-3769691-32&_gid=1830726548.1563993698&z=2050453808 1,1,1563993734,4096   Z:

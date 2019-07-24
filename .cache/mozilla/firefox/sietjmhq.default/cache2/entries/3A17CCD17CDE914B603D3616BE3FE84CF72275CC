@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+	<head profile="http://gmpg.org/xfn/11">
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+		<link rel="shortcut icon" href="https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/favicon.ico" />
+		<title>Page not found - Fedora Magazine</title>
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="0VLV2JI6fXqQIJHGXnxgPbK_yrF3xxuzQI0-cpSdxoA" />
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+<!-- This site is optimized with the Yoast SEO plugin v10.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Fedora Magazine" />
+<meta property="og:site_name" content="Fedora Magazine" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page not found - Fedora Magazine" />
+<meta name="twitter:site" content="@fedora" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fedoramagazine.org' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Fedora Magazine &raquo; Feed" href="https://fedoramagazine.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fedora Magazine &raquo; Comments Feed" href="https://fedoramagazine.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fedoramagazine.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='yarppWidgetCss-css'  href='https://fedoramagazine.org/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='openid-css'  href='https://fedoramagazine.org/wp-content/plugins/openid/f/openid.css?ver=519' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://fedoramagazine.org/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://fedoramagazine.org/wp-content/plugins/jetpack/css/jetpack.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='codecolorer-css'  href='https://fedoramagazine.org/wp-content/plugins/codecolorer/codecolorer.css?ver=0.9.15' type='text/css' media='screen' />
+<link rel='stylesheet' id='rowling_google_fonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A400%2C700%2C900%2C400italic%2C700italic%7CMerriweather%3A700%2C900%2C400italic&#038;ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rowling_fontawesome-css'  href='https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/fa/css/font-awesome.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rowling_style-css'  href='https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/style.css?ver=5.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://fedoramagazine.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://fedoramagazine.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/js/flexslider.js?ver=1'></script>
+<script type='text/javascript' src='https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/js/doubletaptogo.js?ver=1'></script>
+<link rel='https://api.w.org/' href='https://fedoramagazine.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fedoramagazine.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fedoramagazine.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.1.1" />
+
+<link rel='dns-prefetch' href='//widgets.wp.com'>
+<link rel='dns-prefetch' href='//s0.wp.com'>
+<link rel='dns-prefetch' href='//0.gravatar.com'>
+<link rel='dns-prefetch' href='//1.gravatar.com'>
+<link rel='dns-prefetch' href='//2.gravatar.com'>
+      
+	      <!-- Customizer CSS --> 
+	      
+	      <style type="text/css">
+	           	           
+	           	           	           	           	           
+	           	           	           	           	           	           	           	           	           
+	           	           	           	           	           	           	           	           	           	           	           	           	           
+	           	           	           	           	           	           
+	           	           	           	           	           	           	           	           	           	           	           
+	           	           
+	           	           				
+			   	           
+	           	           	           	           	           	           	           	           	           	           	           	           	           	           
+	           	           
+	           	           				
+				
+	      </style> 
+	      
+	      <!--/Customizer CSS-->
+	      
+      	
+	</head>
+	
+	<body class="error404">
+		
+				
+		<div class="search-container">
+			
+			<div class="section-inner">
+			
+				<form method="get" class="search-form" id="search-form" action="https://fedoramagazine.org/">
+	<input type="search" class="search-field" placeholder="Search Fedora Magazine" name="s" id="s" /> 
+	<button type="submit" class="search-button"><div class="fa fw fa-search"></div></button>
+</form>			
+			</div><!-- .section-inner -->
+			
+		</div><!-- .search-container -->
+		
+		<div class="header-wrapper">
+		
+			<div class="header">
+					
+				<div class="section-inner">
+										<div class="magazine-sitelogo">
+						<a href='https://fedoramagazine.org/'>
+							<img width="250px" src="https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/images/fmag-ribbon.png" />
+						</a>
+					</div>
+											
+							<ul class="social-menu">
+								
+								<li id="menu-item-20774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20774"><a href="https://www.facebook.com/TheFedoraProject"><span class="screen-reader-text">Facebook</span></a></li>
+<li id="menu-item-20775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20775"><a href="https://www.instagram.com/thefedoraproject"><span class="screen-reader-text">Instagram</span></a></li>
+<li id="menu-item-20773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20773"><a href="http://twitter.com/fedora"><span class="screen-reader-text">Twitter</span></a></li>
+<li id="menu-item-20776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20776"><a href="https://plus.google.com/+fedora/"><span class="screen-reader-text">Google +</span></a></li>
+<li id="menu-item-20777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20777"><a href="https://fedoramagazine.org/feed/"><span class="screen-reader-text">RSS Feed</span></a></li>
+								
+							</ul><!-- .social-menu -->
+						
+						<div class="clear"></div>				
+									
+				</div><!-- .section-inner -->
+				
+			</div><!-- .header -->
+			
+					</div><!-- .header-wrapper -->
+<div class="wrapper section-inner">
+
+	<div class="content">
+												        
+		<div class="post single single-post">
+			
+			<p class="post-categories">Error 404</p>
+		
+			<div class="post-header">
+				
+			    <h1 class="post-title">These are Not the Results You're Looking For</h1>
+			    					    	    
+			</div><!-- .post-header -->
+				
+			<div class="post-inner">
+				
+				<div class="post-content">
+				
+					<p>It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. Either way, you're welcome to search for what you are looking for with the form below.</p>
+					
+					<p>You can also return to the <a href="https://fedoramagazine.org"> home page </a> and continue your search from there.</p>
+					
+					<p><form method="get" class="search-form" id="search-form" action="https://fedoramagazine.org/">
+	<input type="search" class="search-field" placeholder="Search Fedora Magazine" name="s" id="s" /> 
+	<button type="submit" class="search-button"><div class="fa fw fa-search"></div></button>
+</form></p>
+				
+				</div><!-- .post-content -->
+									
+			</div><!-- .post-inner -->
+																
+		</div><!-- .post -->
+									                        		
+	</div><!-- .content -->
+	
+	<div class="sidebar">
+
+	<div class="widget widget_search sidebarwidget"><div class="widget-content"><form method="get" class="search-form" id="search-form" action="https://fedoramagazine.org/">
+	<input type="search" class="search-field" placeholder="Search Fedora Magazine" name="s" id="s" /> 
+	<button type="submit" class="search-button"><div class="fa fw fa-search"></div></button>
+</form></div><div class="clear"></div></div><div class="widget widget_text sidebarwidget"><div class="widget-content"><h3 class="widget-title">Contribute</h3>			<div class="textwidget">Read about how you can <a href="http://fedoramagazine.org/submit-an-idea-or-tip">submit an idea</a> or even <a href="http://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/">write an article</a> for Fedora Magazine.</div>
+		</div><div class="clear"></div></div><div class="widget widget_text sidebarwidget"><div class="widget-content">			<div class="textwidget"><p><a href="https://fedoramagazine.org/wp-content/uploads/2019/04/fedora30.jpg"><img class="aligncenter wp-image-27710 size-large" src="https://fedoramagazine.org/wp-content/uploads/2019/04/fedora30-1024x433.jpg" alt="" width="616" height="260" /></a><br />
+<strong>Fedora 30 is available now.</strong> Read the <a href="https://fedoramagazine.org/announcing-fedora-30/">release announcement</a> for all the details.</p>
+</div>
+		</div><div class="clear"></div></div><div class="widget jetpack_subscription_widget sidebarwidget"><div class="widget-content"><h3 class="widget-title">Subscribe to Fedora Magazine via Email</h3>
+			<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-5">
+				<div id="subscribe-text"></div><p>Join 5,436 other subscribers</p>
+					<p id="subscribe-email">
+						<label id="jetpack-subscribe-label" for="subscribe-field-blog_subscription-5">
+							Email Address						</label>
+						<input type="email" name="email" required="required" class="required" value="" id="subscribe-field-blog_subscription-5" placeholder="Email Address" />
+					</p>
+
+					<p id="subscribe-submit">
+						<input type="hidden" name="action" value="subscribe" />
+						<input type="hidden" name="source" value="https://fedoramagazine.org/wp-content/themes/fedoramagazine-theme-0.09/favicon.ico" />
+						<input type="hidden" name="sub-type" value="widget" />
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-5" />
+												<input type="submit" value="Subscribe" name="jetpack_subscriptions_widget" />
+					</p>
+							</form>
+
+			<script>
+			/*
+			Custom functionality for safari and IE
+			 */
+			(function( d ) {
+				// In case the placeholder functionality is available we remove labels
+				if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+					var label = d.querySelector( 'label[for=subscribe-field-blog_subscription-5]' );
+						label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+						label.style.position = 'absolute';
+						label.style.height   = '1px';
+						label.style.width    = '1px';
+						label.style.overflow = 'hidden';
+				}
+
+				// Make sure the email value is filled in before allowing submit
+				var form = d.getElementById('subscribe-blog-blog_subscription-5'),
+					input = d.getElementById('subscribe-field-blog_subscription-5'),
+					handler = function( event ) {
+						if ( '' === input.value ) {
+							input.focus();
+
+							if ( event.preventDefault ){
+								event.preventDefault();
+							}
+
+							return false;
+						}
+					};
+
+				if ( window.addEventListener ) {
+					form.addEventListener( 'submit', handler, false );
+				} else {
+					form.attachEvent( 'onsubmit', handler );
+				}
+			})( document );
+			</script>
+				
+</div><div class="clear"></div></div><div class="widget widget_text sidebarwidget"><div class="widget-content"><h3 class="widget-title">Contribute</h3>			<div class="textwidget">Read about how you can <a href="http://fedoramagazine.org/submit-an-idea-or-tip">submit an idea</a> or even <a href="http://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/">write an article</a> for Fedora Magazine.</div>
+		</div><div class="clear"></div></div>
+</div>	
+	<div class="clear"></div>
+	
+</div><!-- .wrapper.section-inner -->
+								
+<div class="credits">
+			
+	<div class="section-inner">
+		
+			
+		<p>			
+			The opinions expressed on this website are those of each author, 
+			not of the author's employer or of Red Hat. Fedora Magazine aspires to 
+			publish all content under a Creative Commons license but may not be able 
+			to do so in all cases. You are responsible for ensuring that you have the 
+			necessary permission to reuse any work on this site. The Fedora logo is a 
+			trademark of Red Hat, Inc. <a href="/terms-and-conditions">Terms and Conditions</a>
+		</p>
+		
+	</div><!-- .section-inner -->
+	
+</div><!-- .credits -->
+
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201930'></script>
+<script type='text/javascript' src='https://fedoramagazine.org/wp-content/themes/fmag2018-1.02/js/global.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://fedoramagazine.org/wp-includes/js/wp-embed.min.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201930.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.8.2',blog:'58617187',post:'0',tz:'0',srv:'fedoramagazine.org'} ]);
+	_stq.push([ 'clickTrackerInit', '58617187', '0' ]);
+</script>
+
+</body>
+</html>}M˜Ê˘]      ]8àê]8àñ@ù¢S       S    :https://fedoramagazine.org/wp-content/themes/fedoramagazine-theme-0.09/favicon.ico strongly-framed 1 security-info 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 request-method GET response-head HTTP/2.0 404 Not Found
+date: Wed, 24 Jul 2019 16:34:29 GMT
+server: Apache
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+referrer-policy: same-origin
+x-powered-by: PHP/5.4.16
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+cache-control: no-cache, must-revalidate, max-age=0
+link: <https://fedoramagazine.org/wp-json/>; rel="https://api.w.org/"
+content-type: text/html; charset=UTF-8
+x-varnish: 33500824
+age: 0
+via: 1.1 varnish-v4
+apptime: D=475151
+x-fedora-proxyserver: proxy08.fedoraproject.org
+x-fedora-requestid: XTiIlJnGmvYM6TUnx3a@HgAAAA8
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 24 Jul 2019 16:34:29 GMT
+server: Apache
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+referrer-policy: same-origin
+x-powered-by: PHP/5.4.16
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+cache-control: no-cache, must-revalidate, max-age=0
+link: <https://fedoramagazine.org/wp-json/>; rel="https://api.w.org/"
+content-type: text/html; charset=UTF-8
+x-varnish: 33500824
+age: 0
+via: 1.1 varnish-v4
+apptime: D=475151
+x-fedora-proxyserver: proxy08.fedoraproject.org
+x-fedora-requestid: XTiIlJnGmvYM6TUnx3a@HgAAAA8
+X-Firefox-Spdy: h2
+ uncompressed-len 0   @·

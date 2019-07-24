@@ -1,0 +1,4 @@
+[Added Associations]
+text/plain=firefox.desktop;emacs.desktop;
+application/xml=emacs.desktop;firefox.desktop;
+application/xhtml+xml=emacs.desktop;

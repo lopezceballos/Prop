@@ -2,4 +2,98 @@
 <xbel version="1.0"
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
-></xbel>
+>
+  <bookmark href="file:///home/prop2020/Descargas/Lenguajes_marcado-master.zip" added="2019-07-24T16:35:09Z" modified="2019-07-24T16:36:07Z" visited="2019-07-24T16:35:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-24T16:35:09Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2019-07-24T16:36:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_prop20200/Lenguajes_marcado-master.zip" added="2019-07-24T16:36:44Z" modified="2019-07-24T16:36:44Z" visited="2019-07-24T16:36:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-24T16:36:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prop2020/Escritorio/Lenguajes_marcado/tarjeta/tarjeta.xml" added="2019-07-24T16:44:38Z" modified="2019-07-24T17:40:50Z" visited="2019-07-24T16:44:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-07-24T17:40:50Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prop2020/Escritorio/Lenguajes_marcado/tarjeta/tarjeta.css" added="2019-07-24T16:44:46Z" modified="2019-07-24T17:31:43Z" visited="2019-07-24T16:44:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2019-07-24T17:31:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prop2020/Escritorio/Tarjeta" added="2019-07-24T16:47:48Z" modified="2019-07-24T17:51:34Z" visited="2019-07-24T16:47:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2019-07-24T17:51:34Z" count="13"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;firefox %u&apos;" modified="2019-07-24T17:46:06Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="trash:///" added="2019-07-24T17:35:33Z" modified="2019-07-24T17:35:33Z" visited="2019-07-24T17:35:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-07-24T17:35:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prop2020/Escritorio/Tarjeta2" added="2019-07-24T17:40:31Z" modified="2019-07-24T17:44:02Z" visited="2019-07-24T17:40:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;firefox %u&apos;" modified="2019-07-24T17:40:31Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2019-07-24T17:44:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prop2020/Escritorio/tarjeta.css" added="2019-07-24T17:42:26Z" modified="2019-07-24T17:42:26Z" visited="2019-07-24T17:42:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2019-07-24T17:42:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prop2020/Escritorio/Lenguajes_marcado/html/plantilla.html" added="2019-07-24T17:58:41Z" modified="2019-07-24T18:10:19Z" visited="2019-07-24T17:58:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xhtml+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-07-24T18:10:19Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

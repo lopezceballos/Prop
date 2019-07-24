@@ -168,3 +168,145 @@ cd ./29Julio2019/
 touch ejemplo ; touch ejemplo2 ; touch ejemplo3 ; touch ejemplo4 ; touch ejemplo5
 Álgebra superior 
 emacs -nw ejercicio.txt
+chmod s1.sh
+chmod s1.s./h
+./s1.sh
+ls -ls
+ls -la
+chmod +x s1.sh
+ls -ls
+ls- la
+ls -la
+./s1.sh
+fg
+cd 29Julio2019/
+pwd
+ls
+./s1.sh
+fg
+./s1.sh
+cd ../
+pwd
+./s1.sh
+emacs -nw ejemplo2.txt
+./ejemplo2
+ls -la
+chmod -x ejemplo2
+ls -la
+./ejemplo2
+ls -la ejemplo2
+chmod +x ejemplo2
+ls -la
+./ejemplo2
+fg
+ls -la
+./ejemplo2
+fg
+cd ejemplo
+cd ../
+ls
+cd prop2020/
+ls
+$git init
+$ git init
+pwd
+cd Documentos
+ls
+git init
+cd ../
+ls
+git init
+fg
+ls -la
+./ejemplo2
+git init
+git status
+git add ejemplo
+git status
+git add .
+git status
+git commit -m "First commit"
+git log
+git commit -m "hola"
+git branch
+git log
+fg
+./ejemplo2
+ls -la
+fg
+git checkout -b script3
+touch script3.sh
+ls
+emacs -nw script3.sh
+git status
+git add
+git add .
+git commmit -m "First commit"
+git commit -m "First commit"
+git commit -m "First commit"  git config --global user.email "you@example.com"
+  git config --global user.email "dani_halo_2000@hotmail.com"
+git commit -m "First commit"
+git log
+git checkout master
+git add.
+git add .
+git add
+git add .
+git commit -m "First commit"
+git log
+git checkout master
+git branch
+fg
+mv ejemplo2.txt script2.sh
+ls
+ls -la
+chmod +x script2
+chmod +x script2.sh
+cat
+ls
+./script2.sh
+fg
+git branch
+git merge script3
+fg
+cat script2.sh
+git merge script3
+git add .
+ls
+git commit -m "TODO"
+git branch
+git merge script3
+cd Escritorio/
+git clone https://github.com/droogadulce/Lenguajes_marcado.git
+pwd
+git 
+man git
+git status
+git add .
+git status
+git clone https://github.com/droogadulce/Lenguajes_marcado.git
+Clonando en 'Lenguajes_marcado'...
+cd ../
+pwd
+git clone https://github.com/droogadulce/Lenguajes_marcado.git
+Clonando en 'Lenguajes_marcado'...
+emacs -nw Tarjeta 
+fg
+pwd
+../
+./
+mv ./Tarjeta Escritorio/
+cd Escritorio/
+ls
+sudo apt-get install sl
+git status
+git add
+git add .
+git log
+git status
+git add .
+git log
+fg
+ls
+emacs -nw Tarjeta2
+emacs -nw plantilla.html

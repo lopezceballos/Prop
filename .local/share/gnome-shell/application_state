@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Terminal.desktop" score="1133" last-seen="1563903518"/>
-    <application id="emacs.desktop" score="66" last-seen="1563895687"/>
+    <application id="firefox.desktop" score="201" last-seen="1563993669"/>
+    <application id="org.gnome.Nautilus.desktop" score="134" last-seen="1563992858"/>
+    <application id="org.gnome.gedit.desktop" score="52" last-seen="1563990703"/>
+    <application id="org.gnome.Terminal.desktop" score="2282" last-seen="1563993671"/>
+    <application id="emacs.desktop" score="238" last-seen="1563992151"/>
+    <application id="org.gnome.FileRoller.desktop" score="1" last-seen="1563986209"/>
   </context>
 </application-state>

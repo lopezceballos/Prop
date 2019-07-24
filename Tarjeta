@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tarjeta.css"?>
+<TarjetaPresentacion>
+	<nombre>Vanessa López</nombre>
+	<hobbies>Patinaje, Escuchar música</hobbies>
+	<telefono tipo="casa">+55 23568974</telefono>
+	<telefono tipo="movil">+55 14630298</telefono>
+	<email>vanelop.20@ciencias.unam.mx</email>
+	<mascotas nombre="Luna"></mascotas>
+</TarjetaPresentacion>
