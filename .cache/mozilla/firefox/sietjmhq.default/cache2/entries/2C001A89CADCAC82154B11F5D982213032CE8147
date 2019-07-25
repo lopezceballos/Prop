@@ -1,0 +1,376 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Uso básico de emacs</TITLE>
+<META NAME="description" CONTENT="Uso básico de emacs">
+<META NAME="keywords" CONTENT="main">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="main.css">
+
+<LINK REL="previous" HREF="node143.htm">
+<LINK REL="up" HREF="node143.htm">
+<LINK REL="next" HREF="node145.htm">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html2198"
+  HREF="node145.htm">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html2194"
+  HREF="node143.htm">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html2190"
+  HREF="node143.htm">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html2196"
+  HREF="node1.htm">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html2199"
+  HREF="node145.htm">Uso de GNAT desde</A>
+<B> Subir:</B> <A NAME="tex2html2195"
+  HREF="node143.htm">Emacs</A>
+<B> Anterior:</B> <A NAME="tex2html2191"
+  HREF="node143.htm">Emacs</A>
+ &nbsp <B>  <A NAME="tex2html2197"
+  HREF="node1.htm">&#205;ndice General</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION001810000000000000000">
+Uso b&#225;sico de emacs</A>
+</H1>
+
+<P>
+Antes de comenzar a trabajar con <EM>emacs</EM> debes saber que si en
+alg&#250;n momento te trabas con el teclado, pulsa <code>Ctrl-g</code> (pulsa la
+tecla <code>Ctrl</code> y, sin soltarla, pulsa la tecla g). De esta forma
+<EM>emacs</EM> anula la orden que ibas a darle y te permite seguir
+trabajando con tu documento. Visto esto, comencemos a utilizar <EM>emacs</EM>.
+
+<P>
+La forma m&#225;s sencilla de crear un fichero de texto es llamar
+a nuestro editor de textos, en este caso <EM>emacs</EM>, d&#225;ndole
+el nombre del fichero.  Por ejemplo:
+
+<P>
+<PRE>
+        $ emacs hola.adb
+</PRE>
+
+<P>
+Como resultado, ver&#225;s la pantalla inicial de emacs, que es la siguiente:
+
+<P>
+
+<P>
+<PRE>
+Buffers Files Tools Edit Search Ada Help
+_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----Emacs: hola.adb          (Ada)--L1--All------------------------------
+Loading ada-mode...done
+</PRE>	
+
+<P>
+En la parte alta de la pantalla hay un men&#250; de opciones. Este men&#250;
+s&#243;lo se puede usar cuando utilizamos <EM>emacs</EM> desde un
+escritorio gr&#225;fico. Si quieres utilizar una versi&#243;n simplificada de
+este men&#250;, pulsa la tecla <code>F10</code> y elige las opciones que esta tecla.
+
+<P>
+La mayor parte de la pantalla est&#225; vacia. Es tu zona de trabajo. Para
+escribir texto, simplemente utiliza el teclado (incluyendo las teclas
+para moverte arriba, abajo, izquierda, derecha, p&#225;gina adelante y
+p&#225;gina atr&#225;s). Las dos &#250;ltimas l&#237;neas son especialmente
+interesantes. La pen&#250;ltima l&#237;nea (la que tiene una cadena larga de
+guiones) se denomina l&#237;nea de modo. En esta l&#237;nea <EM>emacs</EM> te
+dice el nombre del fichero que est&#225;s editando, el tipo de fichero
+(texto, programa Ada, p&#225;gina HTML, etc.), la l&#237;nea que est&#225;s
+editando y una referencia porcentual de tu posici&#243;n dentro del
+documento completo (por ejemplo, 5%).
+
+<P>
+Cuando realizas alg&#250;n cambio en el fichero <EM>emacs</EM> te avisa
+colocando dos asteriscos en la l&#237;nea de modo. Por ejemplo:
+
+<P>
+<PRE>
+--**-Emacs: hola.adb          (Ada)--L1--All------------------------------
+</PRE>	
+
+<P>
+La l&#237;nea inmediatamente inferior a la l&#237;nea de modo se denomina
+minibuffer, o a veces el &#225;rea de eco. <EM>Emacs</EM> usa el minibuffer para
+enviar mensajes al usuario y, cuando es necesario, para leer
+informaci&#243;n que introduce el usuario. En el ejemplo vemos que <EM>emacs</EM> nos est&#225; diciendo que, como el fichero termina con la
+extensi&#243;n de los ficheros Ada (.adb), acaba de cargar en memoria todo
+lo necesario para trabajar con programas Ada. Desde que comencemos a
+escribir algo, <EM>emacs</EM> quita este mensaje y deja el minibuffer
+vacio.
+
+<P>
+Si en el ordenador que utilizas para editar tus programas tienes
+alg&#250;n problema para moverte con las teclas arriba, abajo, izquierda,
+derecha (por ejemplo, hay alguna tecla estropeada que no funciona
+bien), <EM>emacs</EM> tiene reservada una combinaci&#243;n de teclas cuyo
+resultado es completamente equivalente. Para utilizar esta
+combinaci&#243;n de teclas debes presionar la tecla de control (<code>Ctrl</code>) y
+sin soltarla pulsar una letra del teclado. Por ejemplo, para conseguir
+que el cursor se mueva hacia la derecha deber&#225;s pulsar <code>Ctrl-f</code> (<EM>emacs</EM> eligi&#243; la <EM>f</EM> porque es la primera letra de la palabra
+<EM>forward</EM>). En la siguiente tabla tienes la secuencia equivalente
+a cada una de las teclas de movimiento del cursor.
+
+<P>
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="4666"></A>
+<TABLE>
+<CAPTION><STRONG>Tabla G.1:</STRONG>
+Secuencias equivalentes para movimiento del cursor</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="CENTER"><code>Ctrl-f</code></TD>
+<TD ALIGN="LEFT">Avanza un car&#225;cter.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-b</code></TD>
+<TD ALIGN="LEFT">Retrocede un car&#225;cter.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-n</code></TD>
+<TD ALIGN="LEFT">Avanza a la siguiente l&#237;nea.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-p</code></TD>
+<TD ALIGN="LEFT">Retrocede a la l&#237;nea anterior.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-v</code></TD>
+<TD ALIGN="LEFT">Avanza a la siguiente p&#225;gina.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Esc-v</code></TD>
+<TD ALIGN="LEFT">Retrocede a la p&#225;gina anterior.</TD>
+</TR>
+</TABLE>
+
+</DIV></TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+
+<P>
+<DL>
+<DT></DT>
+<DD><B>NOTA: </B> A diferencia de las secuencias de control vistas hasta
+ahora (todas las secuencias de control de <EM>emacs</EM> que comienzas
+pulsando la tecla <code>Ctrl</code>), en las secuencias que comienzan con la
+tecla <code>Esc</code> no es necesario mantenerla pulsada todo el rato. Por
+ejemplo, <code>Esc-v</code> significa: Pulsa la tecla <code>Esc</code>, su&#233;ltala y
+pulsa la tecla <code>v</code>.
+</DD>
+</DL>
+
+<P>
+<EM>Emacs</EM> tambi&#233;n tiene otras combinaciones de teclas que te ser&#225;n
+muy utiles para escribir tus programas. Las principales son:
+
+<P>
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="4679"></A>
+<TABLE>
+<CAPTION><STRONG>Tabla G.2:</STRONG>
+Otras combinaciones de teclas de emacs</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="CENTER"><code>Ctrl-a</code></TD>
+<TD ALIGN="LEFT">Ir al principio de la l&#237;nea.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-e</code></TD>
+<TD ALIGN="LEFT">Ir al final de la l&#237;nea.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-l</code></TD>
+<TD ALIGN="LEFT">Redibujar la pantalla y coloca la</TD>
+</TR>
+<TR><TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="LEFT">l&#237;nea actual en el centro.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-d</code></TD>
+<TD ALIGN="LEFT">Borrar el car&#225;cter actual.</TD>
+</TR>
+<TR><TD ALIGN="CENTER">Retroceso</TD>
+<TD ALIGN="LEFT">Borra el car&#225;cter anterior.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-k</code></TD>
+<TD ALIGN="LEFT">Borrar el texto hasta el final de la l&#237;nea.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-x-s</code></TD>
+<TD ALIGN="LEFT">Guardar el fichero.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-x-c</code></TD>
+<TD ALIGN="LEFT">Salir de emacs.</TD>
+</TR>
+</TABLE>
+
+</DIV></TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+
+<P>
+Cuando editas un fichero con <EM>emacs</EM>, lo primero que hace <EM>emacs</EM> es sacar una copia del fichero y guardarla en su memoria. Por
+tanto, cuando realizas modificaciones en el fichero, realmente s&#243;lo
+est&#225;s modificando la copia que tiene <EM>emacs</EM> (no el fichero). La
+combinaci&#243;n de teclas <code>Ctrl-x-s</code> te permite decidir el instante
+exacto en que quieres que la copia que tienes en memoria se actualice
+en el disco. Esta combinaci&#243;n de teclas quiere decir: pulsa la tecla
+<code>Ctrl</code>; sin soltarla pulsa la tecla <IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img22.png"
+ ALT="$x$">, suelta la <IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img22.png"
+ ALT="$x$"> y, sin soltar
+<code>Ctrl</code>, pulsa ahora la tecla <IMG
+ WIDTH="14" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img59.png"
+ ALT="$s$">. Aunque al leerlo puede parecer
+complicado, en realidad es bastante sencillo porque las teclas <IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img22.png"
+ ALT="$x$"> y
+<IMG
+ WIDTH="14" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img59.png"
+ ALT="$s$"> est&#225;n en el teclado juntas, por lo que toda la combinaci&#243;n se
+puede hacer f&#225;cilmente con una mano.
+
+<P>
+Como ejercicio, escribe en pantalla nuestro primer ejemplo con Ada
+hasta que tengas en pantalla el siguiente resultado.
+
+<P>
+<PRE>
+Buffers Files Tools Edit Search Ada Help
+with Text_IO;
+procedure Hola is
+begin
+   Text_IO.Put_Line (``Hola Ada'');
+end Hola;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----Emacs: hola.adb          (Ada)--L4--All-------------------------------
+Wrote hola.adb
+</PRE>
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"><STRONG>Subsecciones</STRONG></A>
+
+<UL>
+<LI><A NAME="tex2html2200"
+  HREF="node145.htm">Uso de GNAT desde emacs</A>
+<LI><A NAME="tex2html2201"
+  HREF="node146.htm">Cortar, pegar, destruir y tirar</A>
+<LI><A NAME="tex2html2202"
+  HREF="node147.htm">Buscar y reemplazar</A>
+<LI><A NAME="tex2html2203"
+  HREF="node148.htm">La ayuda de emacs</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html2198"
+  HREF="node145.htm">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html2194"
+  HREF="node143.htm">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html2190"
+  HREF="node143.htm">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html2196"
+  HREF="node1.htm">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html2199"
+  HREF="node145.htm">Uso de GNAT desde</A>
+<B> Subir:</B> <A NAME="tex2html2195"
+  HREF="node143.htm">Emacs</A>
+<B> Anterior:</B> <A NAME="tex2html2191"
+  HREF="node143.htm">Emacs</A>
+ &nbsp <B>  <A NAME="tex2html2197"
+  HREF="node1.htm">&#205;ndice General</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Javier Miranda
+2002-10-03
+</ADDRESS>
+</BODY>
+</HTML>
+C`Š¨‘‰      ]9×ß]9×á@žŠ¾]C_   V    :http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/node144.htm necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2019 16:28:02 GMT
+Server: Apache/2.0.53 (Fedora)
+Last-Modified: Thu, 03 Oct 2002 15:26:48 GMT
+ETag: "42a3e0-2c38-3ac1b7211de00"
+Accept-Ranges: bytes
+Content-Length: 11320
+Content-Type: text/html; charset=ISO-8859-1
+ original-response-headers Date: Thu, 25 Jul 2019 16:28:02 GMT
+Server: Apache/2.0.53 (Fedora)
+Last-Modified: Thu, 03 Oct 2002 15:26:48 GMT
+ETag: "42a3e0-2c38-3ac1b7211de00"
+Accept-Ranges: bytes
+Content-Length: 11320
+Connection: close
+Content-Type: text/html; charset=ISO-8859-1
+ uncompressed-len 0 predictor::resource-count 7 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/main.css 1,1,1564071903,4097 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/next.png 1,1,1564071903,4097 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/up.png 1,1,1564071903,4097 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/prev.png 1,1,1564071903,4097 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/contents.png 1,1,1564071903,4097 net-response-time-onstart 745 net-response-time-onstop 1194 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/img22.png 1,1,1564071903,4097 predictor::http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/img59.png 1,1,1564071903,4097   ,8

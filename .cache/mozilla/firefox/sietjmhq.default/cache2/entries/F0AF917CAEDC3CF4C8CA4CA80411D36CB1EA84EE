@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Uso de GNAT desde emacs</TITLE>
+<META NAME="description" CONTENT="Uso de GNAT desde emacs">
+<META NAME="keywords" CONTENT="main">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="main.css">
+
+<LINK REL="next" HREF="node146.htm">
+<LINK REL="previous" HREF="node144.htm">
+<LINK REL="up" HREF="node144.htm">
+<LINK REL="next" HREF="node146.htm">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html2214"
+  HREF="node146.htm">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html2210"
+  HREF="node144.htm">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html2204"
+  HREF="node144.htm">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html2212"
+  HREF="node1.htm">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html2215"
+  HREF="node146.htm">Cortar, pegar, destruir y</A>
+<B> Subir:</B> <A NAME="tex2html2211"
+  HREF="node144.htm">Uso básico de emacs</A>
+<B> Anterior:</B> <A NAME="tex2html2205"
+  HREF="node144.htm">Uso básico de emacs</A>
+ &nbsp <B>  <A NAME="tex2html2213"
+  HREF="node1.htm">&#205;ndice General</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION001811000000000000000">
+Uso de GNAT desde emacs</A>
+</H2>
+
+<P>
+Para compilar tus programas con GNAT se utiliza la siguiente
+combinaci&#243;n de teclas: <code>Ctrl-c-c</code>. En el minibuffer <EM>emacs</EM> te
+preguntar&#225; c&#243;mo quieres compilar el programa y deber&#225;s decirle que
+utilice <EM>gnatmake</EM>. Por ejemplo, para compilar el ejemplo anterior
+pulsas <code>Ctrl-c-c</code> y en el minibuffer ver&#225;s:
+
+<P>
+<PRE>
+Compile command: make -k
+</PRE> 
+
+<P>
+Como queremos utilizar <EM>gnatmake</EM> (en vez de <EM>make</EM>), borramos
+la orden de <EM>make</EM> y escribimos:
+
+<P>
+<PRE>
+Compile command: gnatmake -gnatg hola.adb
+</PRE> 
+
+<P>
+Al pulsar RETURN (o ENTER) <EM>emacs</EM> divide la pantalla en dos, con
+lo que ver&#225;s algo parecido a:
+
+<P>
+<PRE>
+Buffers Files Tools Edit Search Ada Help
+with Text_IO;
+procedure Hola is
+begin
+   Text_IO.Put_Line (``Hola Ada'');
+end Hola;
+
+
+
+
+
+-----Emacs: hola.adb          (Ada)--L4--All------------------------------
+-cd /tmp/
+gnatmake -gnatg hola.adb
+gcc -c -gnatg hola.adb
+gnatbind -x hola.ali
+gnatlink hola.ali
+
+Compilation finished at Sun Oct  8 00:23:27
+
+
+
+
+--**-Emacs: *compilation*      (Compilation:exit [0])--L1--All------------
+(No files need saving)
+</PRE>
+
+<P>
+Si has cometido errores, entonces, en la ventana de abajo GNAT te
+dir&#225; todos los errores. Para que <EM>emacs</EM> se coloque autom&#225;ticamente en
+cada uno de los errores debes utilizar la siguiente combinaci&#243;n de
+teclas: <code>Ctrl-x `SPC</code>. Esto quiere decir, pulsas <code>Ctrl-x</code>, sueltas
+ambas teclas y a continuaci&#243;n pulsas el acento que est&#225; en la tecla
+justo al lado de la tecla P (`) seguido de la barra de espacio (SPC).
+
+<P>
+Cuando termines de corregir los errores debes pulsar <code>Ctrl-x 1</code> para
+volver a trabajar con una &#250;nica ventana.
+
+<P>
+Para ejecutar tu programa debes pulsar <code>Ctrl-z</code>. Con &#233;sto dejas
+``<EM>dormido</EM>'' el editor y en la pantalla ver&#225;s lo siguiente:
+<PRE>
+[1]+  Stopped                 emacs hola.adb
+$ _
+</PRE>
+
+<P>
+Acabas de salir temporalmente al sistema operativo (<EM>Linux</EM>)
+dejando dormido el
+editor (<EM>emacs</EM> sigue estando en la memoria del ordenador, pero no
+puede utilizarse). Para ejecutar el programa que acabamos de hacer,
+simplemente decimos el nombre del directorio donde est&#225; el programa
+(en este caso est&#225; en el directorio actual, que se indica con un
+punto) seguido del nombre del programa.
+
+<P>
+<PRE>
+$ ./hola
+</PRE>
+
+<P>
+Al ejecutar el programa ver&#225;s que Ada escribe en pantalla el mensaje
+<EM>``Hola Ada''</EM> (es lo &#250;nico que le has pedido que haga). Para
+volver al editor debes escribir <code>fg</code> (estas pidiendo a Linux que
+contin&#250;e ejecutando el programa que acabas de dejar dormido). 
+
+<P>
+<PRE>
+$ fg
+</PRE>
+
+<P>
+En las dos tablas siguientes se resumen todas las combinaciones de
+teclas que hemos utilizado para compilar el programa.
+
+<P>
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="4791"></A>
+<TABLE>
+<CAPTION><STRONG>Tabla G.3:</STRONG>
+Combinaciones de teclas de <EM>emacs</EM> para compilar.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="CENTER"><code>Ctrl-c-c</code></TD>
+<TD ALIGN="LEFT">Compilar.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-x `SPC</code></TD>
+<TD ALIGN="LEFT">Ir al siguiente error.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-x 1</code></TD>
+<TD ALIGN="LEFT">Volver a trabajar con una ventana.</TD>
+</TR>
+<TR><TD ALIGN="CENTER"><code>Ctrl-z</code></TD>
+<TD ALIGN="LEFT">Dormir el editor.</TD>
+</TR>
+</TABLE>
+
+</DIV></TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+
+<P>
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="4724"></A>
+<TABLE>
+<CAPTION><STRONG>Tabla:</STRONG>
+&#211;rden de Linux para volver al editor.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="CENTER"><code>fg</code></TD>
+<TD ALIGN="LEFT">Continuar la ejecuci&#243;n del programa dormido.</TD>
+</TR>
+</TABLE>
+
+</DIV></TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+
+<P>
+Un error com&#250;n es dejar dormido a <EM>emacs</EM> y, en lugar de volver al
+editor pulsando <code>Ctrl-z</code>, volver a pedir a <EM>Linux</EM> que ejecute
+otra vez a <EM>emacs</EM> con el mismo fichero (<code>emacs hola.adb</code>). Esto es
+realmente peligroso porque cada vez que hacemos esta secuencia de
+pasos creamos una nueva copia de nuestro fichero en memoria. En alg&#250;n
+momento podemos perder las &#250;ltimas modificaciones del fichero, por
+ejemplo, salido de la copia que acabamos de actualizar con
+<code>Ctrl-x-c</code>, entrando en una copia anterior con <code>fg</code> y volviendo a
+dar la orden de grabar <code>Ctrl-x-s</code>. Adem&#225;s, al irse llenando la
+memoria del ordenador con muchas copias, en cualquier momento <EM>Linux</EM> se puede quejar diciendo que no tiene memoria. En resumen,
+cuando salimos de <EM>emacs</EM> pulsando <code>Ctrl-z</code>, siempre debemos
+volver al editor con la orden <code>fg</code>.
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html2214"
+  HREF="node146.htm">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html2210"
+  HREF="node144.htm">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html2204"
+  HREF="node144.htm">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html2212"
+  HREF="node1.htm">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html2215"
+  HREF="node146.htm">Cortar, pegar, destruir y</A>
+<B> Subir:</B> <A NAME="tex2html2211"
+  HREF="node144.htm">Uso básico de emacs</A>
+<B> Anterior:</B> <A NAME="tex2html2205"
+  HREF="node144.htm">Uso básico de emacs</A>
+ &nbsp <B>  <A NAME="tex2html2213"
+  HREF="node1.htm">&#205;ndice General</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Javier Miranda
+2002-10-03
+</ADDRESS>
+</BODY>
+</HTML>
+LåM ´á      ]9×á]9×á@žŠ¿]Ca   V    :http://www.iuma.ulpgc.es/users/jmiranda/docencia/libro_ada/libro_ada_html/node145.htm strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Jul 2019 16:28:04 GMT
+Server: Apache/2.0.53 (Fedora)
+Last-Modified: Thu, 03 Oct 2002 15:26:48 GMT
+ETag: "42a3e1-1f67-3ac1b7211de00"
+Accept-Ranges: bytes
+Content-Length: 8039
+Content-Type: text/html; charset=ISO-8859-1
+ original-response-headers Date: Thu, 25 Jul 2019 16:28:04 GMT
+Server: Apache/2.0.53 (Fedora)
+Last-Modified: Thu, 03 Oct 2002 15:26:48 GMT
+ETag: "42a3e1-1f67-3ac1b7211de00"
+Accept-Ranges: bytes
+Content-Length: 8039
+Connection: close
+Content-Type: text/html; charset=ISO-8859-1
+ uncompressed-len 0 net-response-time-onstart 450 net-response-time-onstop 675   g

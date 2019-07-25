@@ -1,0 +1,7 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+$-e^{i}
+$x=\frac{-b+-\sqrt{b^2-4ac}}{2a}
+\end{document}

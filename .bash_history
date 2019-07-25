@@ -310,3 +310,27 @@ fg
 ls
 emacs -nw Tarjeta2
 emacs -nw plantilla.html
+pwd
+git add .
+git commit -m "Lenguajes de mercado"
+git remote add origin https://github.com/lopezceballos/Prop.git
+git push -u origin master
+git push -u origin 
+../
+./
+git checkout
+git checkout branch
+git checkout master
+cd 29Julio2019/
+ls
+git status
+git log
+git push
+git master
+git checkout master
+git checkout branch
+git status
+git add .
+git commit "Todo"
+git commit -m "TODO"
+git branch

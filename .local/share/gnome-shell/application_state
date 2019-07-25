@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="firefox.desktop" score="201" last-seen="1563993669"/>
-    <application id="org.gnome.Nautilus.desktop" score="134" last-seen="1563992858"/>
-    <application id="org.gnome.gedit.desktop" score="52" last-seen="1563990703"/>
-    <application id="org.gnome.Terminal.desktop" score="2282" last-seen="1563993671"/>
-    <application id="emacs.desktop" score="238" last-seen="1563992151"/>
+    <application id="org.gnome.Evince.desktop" score="44" last-seen="1564072731"/>
+    <application id="org.gnome.Nautilus.desktop" score="186" last-seen="1564071559"/>
     <application id="org.gnome.FileRoller.desktop" score="1" last-seen="1563986209"/>
+    <application id="firefox.desktop" score="330" last-seen="1564072900"/>
+    <application id="rhythmbox.desktop" score="0" last-seen="1564067452"/>
+    <application id="org.gnome.gedit.desktop" score="52" last-seen="1564071458"/>
+    <application id="org.gnome.Terminal.desktop" score="2921" last-seen="1564072887"/>
+    <application id="emacs.desktop" score="240" last-seen="1564071555"/>
   </context>
 </application-state>

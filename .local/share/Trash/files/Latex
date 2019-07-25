@@ -1,0 +1,6 @@
+\documentclass{article}
+\usepackage{fix-cm} % En algunos casos es necesario
+\usepackage{anyfontsize}
+\begin{document}
+ESte es {\fontsize{80}{0}\selectfont LaTeX}
+\end{document}
